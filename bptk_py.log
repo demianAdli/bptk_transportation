@@ -1,0 +1,13 @@
+2024-11-25 14:47:29.464945, [ERROR] Scenario manager "manage_transportation_senarios" not found! Did you maybe mean one of "population_senarios"?
+2024-11-25 14:47:29.465946, [ERROR] Scenario "scenario_default" not found in any scenario manager!
+2024-11-25 14:47:29.465946, [ERROR] Scenario " scenario_20" not found in any scenario manager!
+2024-11-25 14:47:29.466946, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 14:48:14.499135, [ERROR] Scenario manager "manage_transportation_senarios" not found! Did you maybe mean one of "population_senarios"?
+2024-11-25 14:48:14.499135, [ERROR] Scenario "scenario_default" not found in any scenario manager!
+2024-11-25 14:48:14.499135, [ERROR] Scenario " scenario_20" not found in any scenario manager!
+2024-11-25 14:48:14.500135, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 14:49:02.828339, [ERROR] Scenario " scenario_20" not found in any scenario manager! Did you maybe mean one of "scenario_20, scenario_default"?
+2024-11-25 14:50:52.454548, [WARN] Unable to simulate equation "private_cars_num". Doesn't seem like it's part of the model.
+2024-11-25 14:50:52.455547, [WARN] Unable to simulate equation "private_cars_num". Doesn't seem like it's part of the model.
+2024-11-25 14:50:52.458549, [ERROR] No simulation model containing equation "private_cars_num". Did you maybe mean one of "Education Level, Investment in AT, initial_population"?
+2024-11-25 14:50:52.458549, [ERROR] No output data produced.

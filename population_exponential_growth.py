@@ -14,30 +14,32 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
-model_01 = Model(starttime=0.0, stoptime=25.0, dt=1.0, name='SimpleProjectManagement')
+population_exponential_growth = Model(starttime=0.0, stoptime=25.0, dt=1.0, name='SimpleProjectManagement')
 
-private_cars_num = model_01.stock('Number of Private Cars')
-new_cars_num = model_01.flow('Number of New Cars')
-shift_to_sustainable_modes = model_01.flow('Shift to Sustainable Modes')
-population = model_01.converter('Population')
-current_infrastructure_capacity = model_01.converter('Current Infrastructure Capacity')
-education_level = model_01.converter('Education Level')
-sustainable_mode_preference = model_01.converter('Mode Preference Towards Sustainable Modes')
-ride_sharing_trip_share = model_01.converter('Share of Ride-Sharing Trips')
-public_transport_trip_share = model_01.converter('Share of Public Transport Trips')
-active_transportation_trip_share = model_01.converter('Share of Active Transportation Trips')
-investment_in_rs = model_01.converter('Investment in RS')
-investment_in_pt = model_01.converter('Investment in PT')
-investment_in_at = model_01.converter('Investment in AT')
-initial_population = model_01.constant('Initial Population')
-public_investment_in_mobility = model_01.constant('Public Investment in Mobility')
-available_transportation_modes = model_01.constant('Available Transportation Modes')
+private_cars_num = population_exponential_growth.stock('Number of Private Cars')
+new_cars_num = population_exponential_growth.flow('Number of New Cars')
+shift_to_sustainable_modes = population_exponential_growth.flow('Shift to Sustainable Modes')
+initial_population = population_exponential_growth.constant('Initial Population')
+population_growth_rate = population_exponential_growth.constant('Population Growth Rate')
+population = population_exponential_growth.converter('Population')
+current_infrastructure_capacity = population_exponential_growth.converter('Current Infrastructure Capacity')
+education_level = population_exponential_growth.converter('Education Level')
+sustainable_mode_preference = population_exponential_growth.converter('Mode Preference Towards Sustainable Modes')
+available_transportation_modes = population_exponential_growth.constant('Available Transportation Modes')
+ride_sharing_trip_share = population_exponential_growth.converter('Share of Ride-Sharing Trips')
+public_transport_trip_share = population_exponential_growth.converter('Share of Public Transport Trips')
+active_transportation_trip_share = population_exponential_growth.converter('Share of Active Transportation Trips')
+investment_in_rs = population_exponential_growth.converter('Investment in RS')
+investment_in_pt = population_exponential_growth.converter('Investment in PT')
+investment_in_at = population_exponential_growth.converter('Investment in AT')
+public_investment_in_mobility = population_exponential_growth.constant('Public Investment in Mobility')
 
 public_investment_in_mobility.equation = 2e9
 available_transportation_modes.equation = 3.0
 initial_population.equation = 17100
-population.equation = initial_population / (1 + sd.exp(-(0.02 * (sd.time() - 15))))
-initial_private_cars_num = model_01.converter('Initial Number of Private Cars')
+population_growth_rate.equation = 0.01
+population.equation = initial_population * sd.exp(population_growth_rate * sd.time())
+initial_private_cars_num = population_exponential_growth.converter('Initial Number of Private Cars')
 initial_private_cars_num.equation = (sd.If(sd.time() == 0, population, initial_private_cars_num)) * 0.84 * 0.9
 # initial_private_cars_num.equation = population*0.84*0.9
 
@@ -61,9 +63,7 @@ shift_to_sustainable_modes.equation = \
     (active_transportation_trip_share + public_transport_trip_share + ride_sharing_trip_share) /
     max(1, (active_transportation_trip_share + public_transport_trip_share + ride_sharing_trip_share))) / 100) * private_cars_num
 
-
-if __name__ == '__main__':
-  print(private_cars_num(0))
-  print(private_cars_num(23))
-  private_cars_num.plot()
-  plt.show()
+print(private_cars_num(0))
+print(private_cars_num(23))
+private_cars_num.plot()
+plt.show()
