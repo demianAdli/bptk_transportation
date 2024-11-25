@@ -21,6 +21,9 @@ bptk.register_scenario_manager(scenario_manager)
 bptk.register_scenarios(
     scenarios={
             'scenario_default': {
+                'constants': {
+                    'initial_population': 17100
+                }
             },
             'scenario_20': {
                 'constants': {
@@ -36,8 +39,8 @@ population_results = bptk.plot_scenarios(
     scenario_managers='population_senarios',
     equations='Number of Private Cars',
     series_names={
-        'population_senarios_scenario_default_initial_population': 'scenario_default',
-        'population_senarios_scenario_20_initial_population': 'scenario_20'
+        'population_senarios_scenario_default_Number of Private Cars': 'scenario_default',
+        'population_senarios_scenario_20_Number of Private Cars': 'scenario_20'
     }, return_df=True
 
 )
