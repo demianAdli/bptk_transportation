@@ -5,13 +5,15 @@ import BPTK_Py
 
 
 bptk = BPTK_Py.bptk()
+# bptk.register_model(model_01)
+
 scenario_manager = {
     'population_senarios': {
         'model': model_01,
         'base_constants': {
-            'initial_population': 17100,
-            'public_investment_in_mobility': 2e9,
-            'available_transportation_modes': 3.0
+            'Initial Population': 17100,
+            'Public Investment in Mobility': 2e9,
+            'Available Transportation Modes': 3.0
         }
     }
 }
@@ -20,14 +22,11 @@ bptk.register_scenario_manager(scenario_manager)
 
 bptk.register_scenarios(
     scenarios={
-            'scenario_default': {
-                'constants': {
-                    'initial_population': 17100
-                }
+            'base': {
             },
-            'scenario_20': {
+            'scenario20': {
                 'constants': {
-                    'initial_population': 20000
+                    'Initial Population': 20000
                 }
             }
         }
@@ -35,14 +34,15 @@ bptk.register_scenarios(
     scenario_manager='population_senarios')
 
 population_results = bptk.plot_scenarios(
-    scenarios='scenario_default,scenario_20',
+    scenarios='base,scenario20',
     scenario_managers='population_senarios',
     equations='Number of Private Cars',
     series_names={
-        'population_senarios_scenario_default_Number of Private Cars': 'scenario_default',
-        'population_senarios_scenario_20_Number of Private Cars': 'scenario_20'
+        'population_senarios_base_Number of Private Cars': 'base',
+        'population_senarios_scenario20_Number of Private Cars': 'scenario20'
     }, return_df=True
-
 )
 print(population_results)
 plt.show()
+
+# print(bptk.get_scenario_names([], format="dict"))

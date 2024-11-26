@@ -11,3 +11,73 @@
 2024-11-25 14:50:52.455547, [WARN] Unable to simulate equation "private_cars_num". Doesn't seem like it's part of the model.
 2024-11-25 14:50:52.458549, [ERROR] No simulation model containing equation "private_cars_num". Did you maybe mean one of "Education Level, Investment in AT, initial_population"?
 2024-11-25 14:50:52.458549, [ERROR] No output data produced.
+2024-11-25 16:10:12.093473, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleprojectmanagement"?
+2024-11-25 16:10:12.094473, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 16:10:12.094473, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 16:10:51.728116, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleprojectmanagement"?
+2024-11-25 16:10:51.728116, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 16:10:51.728116, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 16:11:02.366155, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleprojectmanagement"?
+2024-11-25 16:11:02.367159, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 16:11:02.367159, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 16:27:27.443176, [ERROR] Scenario "scenario_17" not found in any scenario manager! Did you maybe mean one of "scenario20, base"?
+2024-11-25 16:27:27.443176, [ERROR] Scenario "scenario_20" not found in any scenario manager! Did you maybe mean one of "scenario20, base"?
+2024-11-25 16:27:27.443176, [ERROR] No output data produced.
+2024-11-25 16:27:53.898014, [ERROR] Scenario "scenario_17" not found in any scenario manager! Did you maybe mean one of "scenario20, base"?
+2024-11-25 16:27:53.898996, [ERROR] Scenario "scenario_20" not found in any scenario manager! Did you maybe mean one of "scenario20, base"?
+2024-11-25 16:27:53.898996, [ERROR] No output data produced.
+2024-11-25 17:35:27.551204, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:35:27.552182, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleProjectManagementDSL"?
+2024-11-25 17:35:27.552182, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:35:27.552182, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:35:40.899262, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:35:40.899262, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleProjectManagementDSL"?
+2024-11-25 17:35:40.899262, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:35:40.899262, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:35:57.552117, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:35:57.552117, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleProjectManagementDSL"?
+2024-11-25 17:35:57.553120, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:35:57.553120, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:36:57.700974, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:36:57.700974, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleProjectManagementDSL"?
+2024-11-25 17:36:57.701987, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:36:57.701987, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:37:49.526973, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:37:49.526973, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "smSimpleProjectManagementDSL"?
+2024-11-25 17:37:49.526973, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:37:49.526973, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:39:11.155805, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:39:11.155805, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "population_scenarios"?
+2024-11-25 17:39:11.155805, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:39:11.156805, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:40:35.523542, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:40:35.523542, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "population_scenarios"?
+2024-11-25 17:40:35.523542, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 17:40:35.524542, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:40:35.524542, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:44:57.096735, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:44:57.096735, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "population_scenarios"?
+2024-11-25 17:44:57.096735, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 17:44:57.097708, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:44:57.097708, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:45:09.760967, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:45:09.761967, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "population_scenarios"?
+2024-11-25 17:45:09.761967, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 17:45:09.761967, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:45:09.761967, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:46:55.928835, [ERROR] Scenario manager not found. Did you register it?
+2024-11-25 17:46:55.929801, [ERROR] Scenario manager "population_senarios" not found! Did you maybe mean one of "population_scenarios"?
+2024-11-25 17:46:55.929801, [ERROR] Scenario "base" not found in any scenario manager!
+2024-11-25 17:46:55.929801, [ERROR] Scenario "scenario20" not found in any scenario manager!
+2024-11-25 17:46:55.929801, [WARN] No output data produced. Hopefully this was your intention.
+2024-11-25 17:49:33.961100, [ERROR] Scenario "base" not found in any scenario manager! Did you maybe mean one of "scenario_20"?
+2024-11-25 17:49:33.961100, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20"?
+2024-11-25 17:49:33.962075, [ERROR] No output data produced.
+2024-11-25 17:50:25.300970, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:51:09.695376, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:52:17.638464, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:52:39.690591, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:52:54.527475, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:53:37.529444, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:53:53.891355, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
+2024-11-25 17:54:10.299752, [ERROR] Scenario "scenario20" not found in any scenario manager! Did you maybe mean one of "scenario_20, base"?
